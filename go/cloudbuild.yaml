@@ -4,14 +4,14 @@ steps:
     args:
       - 'install'
       - 'rocks'
-    env: ['GOPATH=/workspace']
+    env: ['GOPATH=/workspace/go']
 
   - name: 'gcr.io/cloud-builders/go'
     id: Executando testes
     args:
       - 'test'
       - 'rocks'
-    env: ['GOPATH=/workspace']
+    env: ['GOPATH=/workspace/go']
 
   - name: 'gcr.io/cloud-builders/docker'
     id: Executando docker build
