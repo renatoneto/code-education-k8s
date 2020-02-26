@@ -9,7 +9,7 @@ import (
 func main() {
 	http.HandleFunc("/", RocksServer)
 
-    port := "8080"
+    port := "8000"
 
     log.Println("Rodando na porta " + port)
 

@@ -9,5 +9,5 @@ FROM scratch
 
 COPY --from=builder /go/src/rocks/rocks /
 
-EXPOSE 8080
+EXPOSE 8000
 CMD ["/rocks"]
