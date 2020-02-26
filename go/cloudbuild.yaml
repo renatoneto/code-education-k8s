@@ -19,7 +19,7 @@ steps:
       - 'build'
       - '-t'
       - 'gcr.io/$PROJECT_ID/go-rocks:latest'
-      - '.'
+      - 'go/'
 
 images:
   - 'gcr.io/$PROJECT_ID/go-rocks:latest'
